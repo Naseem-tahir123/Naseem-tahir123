@@ -1,9 +1,16 @@
-- 👋 Hi, I’m @Naseem-tahir123
-- 👀 I’m interested in programming
-- 🌱 I’m currently learning software engineering
-- 💞️ I’m looking to collaborate on github
+👋 Hi, I’m Naseem Tahir
+📍 Lahore, Pakistan | ✉️ naseemtahir507@gmail.com
 
-<!---
-Naseem-tahir123/Naseem-tahir123 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+💻 AI Engineer | Python Developer | Machine Learning Enthusiast
+
+🤖 Hands-on experience in LLMs, NLP, AI Agents, and Workflow Automation
+
+🔬 Skilled in Machine Learning, Deep Learning, Computer Vision, and Data Wrangling
+
+🛠️ Tools & Frameworks: Python, FastAPI, LangChain, OpenAI Agents SDK, Scikit-learn, PyTorch, YOLO, SQL/MongoDB, GitHub, Linux
+
+🚀 Built projects including AI-powered chatbots, multi-agent scheduling systems, comic translation pipelines, news summarizers, and GitHub code reviewer bots
+
+🎯 Passionate about Generative AI, Computer Vision, and MLOps with AWS/GCP/Azure
+
+🌱 Always exploring LLM integrations, prompt engineering, and AI-driven applications
