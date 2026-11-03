@@ -1,230 +1,282 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B0F1F,45:4C1D95,100:F97316&height=260&section=header&text=Naseem%20Tahir&fontSize=64&fontColor=ffffff&animation=twinkling&fontAlignY=36&desc=AI%20Engineer%20%C2%B7%20LLMs%20%C2%B7%20RAG%20Systems%20%C2%B7%20Applied%20ML&descSize=20&descAlignY=58&descColor=E9D5FF" width="100%" alt="Naseem Tahir - AI Engineer">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=F59E0B&center=true&vCenter=true&width=820&height=50&lines=Building+production+LLM+applications;Hybrid+RAG%3A+vector+%2B+BM25+%2F+full-text+search;Merged+with+Reciprocal+Rank+Fusion;Guardrails%3A+RBAC+%E2%80%A2+PII+redaction+%E2%80%A2+prompt-injection+defense;Voice+agents+%E2%80%A2+OCR+assistants+%E2%80%A2+AI+automation;FastAPI+%E2%80%A2+LangChain+%E2%80%A2+LangGraph" alt="Typing animation">
-
-<br><br>
-
-<a href="https://www.linkedin.com/in/naseem-tahir-balti/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0B0F1F" alt="LinkedIn"></a>
-<a href="mailto:naseemtahir507@gmail.com"><img src="https://img.shields.io/badge/EMAIL-GET_IN_TOUCH-F97316?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B0F1F" alt="Email"></a>
- 
-<a href="https://naseemtahir-ai.vercel.app/"><img src="https://img.shields.io/badge/PORTFOLIO-VISIT-7C3AED?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0B0F1F" alt="Portfolio"></a>
- 
-
-<br><br>
-
-<img src="https://img.shields.io/badge/1%2B-YEARS_SHIPPING_LLM_APPS-F97316?style=for-the-badge&labelColor=0B0F1F" alt="1+ years shipping LLM apps">
-<img src="https://img.shields.io/badge/6-AI_PRODUCTS_IN_9_MONTHS-7C3AED?style=for-the-badge&labelColor=0B0F1F" alt="6 AI products in 9 months">
-<img src="https://img.shields.io/badge/3-LAYER_GUARDRAIL_SYSTEM-F97316?style=for-the-badge&labelColor=0B0F1F" alt="3-layer guardrail system">
-<img src="https://img.shields.io/badge/2-RETRIEVAL_METHODS_FUSED-7C3AED?style=for-the-badge&labelColor=0B0F1F" alt="2 retrieval methods fused">
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:F97316&height=3" width="100%" alt="">
-
-## About
-
-Islamabad, Pakistan. Currently an **AI Engineer at Arcana Info** (since March 2026), building secure RAG backends for internal HR and travel-agent assistants. Before that I was an **AI Engineer at Assort Tech**, where I delivered 6 end-to-end AI products in 9 months. I'm exploring computer vision, MLOps and cloud-based AI deployment.
-
-<table>
-<tr>
-<td width="25%" valign="top"><b>🔎 Retrieval &amp; RAG</b><br><br>Hybrid search that combines vector similarity with BM25 / full-text, merged with Reciprocal Rank Fusion.</td>
-<td width="25%" valign="top"><b>🛡️ LLM Guardrails</b><br><br>Layered RBAC, PII redaction and prompt-injection defense for enterprise chatbots.</td>
-<td width="25%" valign="top"><b>🎙️ Agents &amp; Voice</b><br><br>A voice scheduling agent, OCR-based assistants and a GitHub PR review bot, delivered end to end.</td>
-<td width="25%" valign="top"><b>⚙️ Production Backends</b><br><br>FastAPI services hardened with JWT auth, rate limiting, request-ID middleware and structured error handling.</td>
-</tr>
-</table>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:F97316&height=3" width="100%" alt="">
-
-## Architecture I Work With
-
-```mermaid
-flowchart LR
-    Q(["User query"]) --> G{{"Guardrails<br/>RBAC · PII redaction · injection defense"}}
-    G --> V[("Vector similarity<br/>pgvector")]
-    G --> F[("Full-text / BM25")]
-    V --> R["Reciprocal<br/>Rank Fusion"]
-    F --> R
-    R --> L["LLM response"]
-
-    style Q fill:#0B0F1F,stroke:#A78BFA,color:#fff
-    style G fill:#4C1D95,stroke:#A78BFA,color:#fff
-    style V fill:#1E1B4B,stroke:#7C3AED,color:#fff
-    style F fill:#1E1B4B,stroke:#7C3AED,color:#fff
-    style R fill:#7C2D12,stroke:#F97316,color:#fff
-    style L fill:#7C2D12,stroke:#F59E0B,color:#fff
-```
-
-<sub>A simplified view of the hybrid-RAG-plus-guardrails pattern behind my production chatbots, not a literal system diagram.</sub>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:F97316&height=3" width="100%" alt="">
-
-## Tech Stack
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,fastapi,flutter,dart,html,css,postgres,mongodb,redis,prisma,supabase,docker,git,linux,playwright,tensorflow,keras,sklearn,pytorch&perline=10&theme=dark" alt="Technology icons">
-
-<br><br>
-
-<img src="https://img.shields.io/badge/OPENAI-0B0F1F?style=for-the-badge&logo=openai&logoColor=white&color=7C3AED" alt="OpenAI">
-<img src="https://img.shields.io/badge/LANGCHAIN-0B0F1F?style=for-the-badge&logo=langchain&logoColor=white&color=4C1D95" alt="LangChain">
-<img src="https://img.shields.io/badge/LANGGRAPH-0B0F1F?style=for-the-badge&logoColor=white&color=7C3AED" alt="LangGraph">
-<img src="https://img.shields.io/badge/GEMINI-0B0F1F?style=for-the-badge&logo=googlegemini&logoColor=white&color=EA580C" alt="Gemini">
-<img src="https://img.shields.io/badge/GROQ-0B0F1F?style=for-the-badge&logoColor=white&color=F97316" alt="Groq">
-<img src="https://img.shields.io/badge/COHERE-0B0F1F?style=for-the-badge&logoColor=white&color=7C3AED" alt="Cohere">
-<img src="https://img.shields.io/badge/OLLAMA-0B0F1F?style=for-the-badge&logo=ollama&logoColor=white&color=4C1D95" alt="Ollama">
-<img src="https://img.shields.io/badge/RAG-0B0F1F?style=for-the-badge&logoColor=white&color=EA580C" alt="RAG">
-<img src="https://img.shields.io/badge/PGVECTOR-0B0F1F?style=for-the-badge&logoColor=white&color=F97316" alt="pgvector">
-<img src="https://img.shields.io/badge/N8N-0B0F1F?style=for-the-badge&logo=n8n&logoColor=white&color=7C3AED" alt="n8n">
-
-</div>
-
-<details>
-<summary><b>Full breakdown by domain</b></summary>
+<img src="./assets/banner.svg" width="100%" alt="Naseem Tahir, AI Engineer. Animated hybrid retrieval pipeline: query, vector and BM25 search, Reciprocal Rank Fusion, answer.">
 
 <br>
 
-| Domain | Technologies |
-|:--|:--|
-| **Languages & Frameworks** | Python · FastAPI · LangChain · LangGraph · HTML/CSS · Flutter |
-| **LLMs & Retrieval** | OpenAI API · Gemini · Groq · Cohere · Ollama · RAG · hybrid search (vector + BM25 / full-text) · Prompt Engineering |
-| **Machine Learning** | TensorFlow · Keras · Scikit-learn · PyTorch · YOLO |
-| **Data & Infrastructure** | PostgreSQL · pgvector · MongoDB · SQL · Redis · Prisma · Supabase · Docker · Git · Linux |
-| **Automation & Tooling** | n8n · Playwright |
+<a href="#ask-my-profile">Ask my profile</a> &nbsp;·&nbsp;
+<a href="#stack">Stack</a> &nbsp;·&nbsp;
+<a href="#project-explorer">Projects</a> &nbsp;·&nbsp;
+<a href="#experience">Experience</a> &nbsp;·&nbsp;
+<a href="#github-stats">Stats</a> &nbsp;·&nbsp;
+<a href="#contact">Contact</a>
+
+</div>
+
+<br>
+
+I build production LLM applications: **hybrid-search RAG pipelines**, **guardrailed enterprise chatbots**, and **voice and OCR-based AI assistants**, served through FastAPI backends. Currently an AI Engineer at **Arcana Info** in Islamabad.
+
+---
+
+## Ask my profile
+
+Click a question to expand the answer.
+
+<details>
+<summary><b><code>&gt; what do you build?</code></b></summary>
+
+<br>
+
+Production LLM applications. That includes RAG chatbots with hybrid search, voice agents, OCR-based assistants and content-generation pipelines, usually with a FastAPI backend.
 
 </details>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:F97316&height=3" width="100%" alt="">
+<details>
+<summary><b><code>&gt; what are you working on right now?</code></b></summary>
 
-## Featured Work
+<br>
 
-<table>
-<tr>
-<td width="50%" valign="top">
+Since March 2026 I have been an AI Engineer at **Arcana Info**, working on two systems: **Arca AI**, a secure internal HR chatbot backend, and the **TBB Travel Assistant**, a RAG system for travel agents.
 
-<h3>Arca AI · Secure HR Chatbot</h3>
-<sub><b>ARCANA INFO</b> · Company project (private)</sub>
-<br><br>
-Backend for an internal HR assistant. Retrieval combines <b>pgvector similarity</b> and <b>full-text search</b>, merged with <b>Reciprocal Rank Fusion</b>. A <b>3-layer guardrail system</b> (RBAC, PII redaction, prompt-injection defense) protects sensitive HR data, and <b>4 admin dashboard API modules</b> give the HR team live visibility into chatbot performance.
-<br><br>
-<code>FastAPI</code> <code>Prisma</code> <code>pgvector</code> <code>Groq</code> <code>Cohere</code>
+</details>
 
-</td>
-<td width="50%" valign="top">
+<details>
+<summary><b><code>&gt; how do you improve retrieval quality?</code></b></summary>
 
-<h3>TBB Travel Assistant</h3>
-<sub><b>ARCANA INFO</b> · Company project (private)</sub>
-<br><br>
-Production RAG system that gives travel agents real-time answers from FAQs and guides. It combines <b>vector similarity and BM25 search</b> on PostgreSQL with pgvector and Cohere embeddings. Both this and Arca AI were hardened with <b>JWT auth, request-ID middleware, rate limiting and structured error handling</b>.
-<br><br>
-<code>FastAPI</code> <code>PostgreSQL</code> <code>pgvector</code> <code>BM25</code> <code>Cohere</code>
+<br>
 
-</td>
-</tr>
-</table>
+By combining two retrieval methods instead of relying on one. I pair **vector similarity (pgvector)** with **full-text / BM25 search** and merge the ranked results with **Reciprocal Rank Fusion**.
 
-<h3 align="center">Shipped at Assort Tech · 2025</h3>
+</details>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<b>🤖 Company AI Chatbot</b><br>
-Real-time chat widget grounded in company content, resolving customer queries without manual intervention.<br>
-<code>RAG</code> <code>Web scraping</code> <code>GPT-4o-mini</code>
-</td>
-<td width="50%" valign="top">
-<b>🎙️ Voice Scheduling Assistant</b><br>
-One conversational interface across Google Calendar, email and SMS, with real-time speech in and out.<br>
-<code>OpenAI Agents SDK</code> <code>TTS/STT</code>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<b>🔍 GitHub PR Review Bot</b><br>
-Webhook-based bot that posts automatic code feedback on every incoming pull request.<br>
-<code>Gemini</code> <code>Webhooks</code>
-</td>
-<td width="50%" valign="top">
-<b>🎧 News-to-Podcast Pipeline</b><br>
-Fetches stories, summarizes them and converts them to audio in one triggered pipeline.<br>
-<code>SerpAPI</code> <code>GPT-4</code> <code>TTS</code>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<b>📚 Educational AI Assistant</b><br>
-Processes academic documents and images, then generates summaries, quizzes and explanations.<br>
-<code>Mathpix OCR</code> <code>GPT-4o-mini</code>
-</td>
-<td width="50%" valign="top">
-<b>📖 AI Book Generation Workflow</b><br>
-A single pipeline covering chapter writing, cover design and editing.<br>
-<code>n8n</code> <code>Supabase</code> <code>Gemini</code>
-</td>
-</tr>
-</table>
+<details>
+<summary><b><code>&gt; how do you secure an LLM app?</code></b></summary>
+
+<br>
+
+With layers. For the HR chatbot I built a **3-layer guardrail system**: role-based access control (RBAC), PII redaction and prompt-injection defense. On the API side I add JWT authentication, request-ID middleware, rate limiting and structured error handling.
+
+</details>
+
+<details>
+<summary><b><code>&gt; what have you shipped before?</code></b></summary>
+
+<br>
+
+At Assort Tech (Jan – Sep 2025) I delivered **6 end-to-end AI products in 9 months**: a RAG chatbot widget, a voice scheduling assistant, a GitHub PR review bot, a news-to-podcast pipeline, an OCR-based educational assistant and an AI book-generation workflow. Details are in the [project explorer](#project-explorer).
+
+</details>
+
+<details>
+<summary><b><code>&gt; what are you exploring next?</code></b></summary>
+
+<br>
+
+Computer vision, MLOps and cloud-based AI deployment.
+
+</details>
+
+---
+
+## Stack
+
+<div align="center">
+<img src="./assets/stack.svg" width="100%" alt="Technology stack: OpenAI API, Gemini, Groq, Cohere, Ollama, LangChain, LangGraph, RAG, Python, FastAPI, PostgreSQL, pgvector, Prisma, MongoDB, Redis, Supabase, Docker, Linux, Git, n8n, Playwright, TensorFlow, Keras, scikit-learn, PyTorch, YOLO, Flutter">
+</div>
+
+---
+
+## Project Explorer
+
+Click a project to expand it. Most of this work was built for employers, so the code is private.
+
+### At Arcana Info · 2026
+
+<details>
+<summary><b>Arca AI</b> · secure HR chatbot backend</summary>
+
+<br>
+
+| | |
+|:--|:--|
+| **What it is** | Backend for an internal HR assistant |
+| **Retrieval** | pgvector similarity + full-text search, merged with Reciprocal Rank Fusion |
+| **Security** | 3-layer guardrails: RBAC, PII redaction, prompt-injection defense, integrated with Groq and Cohere |
+| **Visibility** | 4 admin dashboard API modules: AI training progress, knowledge coverage, query resolution rate, announcement pulse |
+| **Stack** | `FastAPI` `Prisma` `pgvector` `Groq` `Cohere` |
+| **Code** | Company project, private |
+
+</details>
+
+<details>
+<summary><b>TBB Travel Assistant</b> · RAG for travel agents</summary>
+
+<br>
+
+| | |
+|:--|:--|
+| **What it is** | Production RAG system giving travel agents real-time answers from FAQs and guides |
+| **Retrieval** | Vector similarity + BM25 search on PostgreSQL |
+| **Stack** | `PostgreSQL` `pgvector` `Cohere embeddings` |
+| **Also solved** | Traced a cross-environment scraper failure to a subdomain mismatch across 2 staging environments, restoring Playwright-based content ingestion |
+| **Code** | Company project, private |
+
+</details>
+
+<details>
+<summary><b>Production hardening</b> · applied to both systems</summary>
+
+<br>
+
+Structured error handling, JWT authentication, request-ID middleware and rate limiting across all API endpoints of both systems.
+
+</details>
+
+### At Assort Tech · 2025
+
+<details>
+<summary><b>Company AI chatbot</b> · real-time chat widget</summary>
+
+<br>
+
+RAG over company content, using web scraping and GPT-4o-mini, deployed as a chat widget that resolves customer queries without manual intervention.
+
+`RAG` `Web scraping` `GPT-4o-mini`
+
+</details>
+
+<details>
+<summary><b>Voice scheduling assistant</b> · three channels, one interface</summary>
+
+<br>
+
+Unifies Google Calendar, email and SMS into one conversational interface with real-time speech-to-text and text-to-speech, built with the OpenAI Agents SDK.
+
+`OpenAI Agents SDK` `TTS / STT`
+
+</details>
+
+<details>
+<summary><b>GitHub PR review bot</b> · automatic code feedback</summary>
+
+<br>
+
+A webhook-based bot using Gemini that generates code feedback on every incoming pull request, shortening manual review turnaround from hours to minutes.
+
+`Gemini` `Webhooks`
+
+</details>
+
+<details>
+<summary><b>News-to-podcast pipeline</b></summary>
+
+<br>
+
+Fetches stories via SerpAPI, summarizes them with GPT-4 and converts them to audio with text-to-speech, turning a multi-step manual workflow into a single triggered pipeline.
+
+`SerpAPI` `GPT-4` `TTS`
+
+</details>
+
+<details>
+<summary><b>Educational AI assistant</b> · OCR-based</summary>
+
+<br>
+
+Uses Mathpix OCR to process academic documents and images, then generates summaries, quizzes and explanations with GPT-4o-mini.
+
+`Mathpix OCR` `GPT-4o-mini`
+
+</details>
+
+<details>
+<summary><b>AI book-generation workflow</b></summary>
+
+<br>
+
+An end-to-end pipeline covering chapter writing, cover design and editing.
+
+`n8n` `Supabase` `Gemini`
+
+</details>
+
+### Personal repositories
+
+[**FlutterResponsiveUI**](https://github.com/Naseem-tahir123/FlutterResponsiveUI) · Flutter, Dart &nbsp;·&nbsp; [All repositories](https://github.com/Naseem-tahir123?tab=repositories)
+
+---
+
+## Experience
+
+<details open>
+<summary><b>AI Engineer · Arcana Info</b> &nbsp;<sub>Mar 2026 – Present · Islamabad</sub></summary>
+
+<br>
+
+Hybrid RAG systems, layered LLM guardrails and production hardening for enterprise chatbots.
+
+</details>
+
+<details>
+<summary><b>AI Engineer · Assort Tech</b> &nbsp;<sub>Jan 2025 – Sep 2025 · Lahore</sub></summary>
+
+<br>
+
+Delivered 6 end-to-end AI products over 9 months: RAG chatbots, voice agents, OCR-based assistants and content-generation pipelines.
+
+</details>
+
+<details>
+<summary><b>AI Intern · NAVTTC</b> &nbsp;<sub>Jun 2024 – Dec 2024 · Islamabad</sub></summary>
+
+<br>
+
+Six-month AI/ML internship covering model development and prototyping under senior engineer mentorship.
+
+</details>
+
+<details>
+<summary><b>Education</b> &nbsp;<sub>2019 – 2024</sub></summary>
+
+<br>
+
+BS Computer Science, Federal Urdu University of Arts, Science & Technology, Islamabad.
+
+</details>
+
+---
+
+## GitHub Stats
+
+<details open>
+<summary><b>Live stats</b></summary>
+
+<br>
 
 <div align="center">
 
-<sub>Most of this work was built for employers and is not public.</sub>
-<br>
-<a href="https://github.com/Naseem-tahir123/FlutterResponsiveUI"><img src="https://img.shields.io/badge/PERSONAL_REPO-FlutterResponsiveUI-F97316?style=for-the-badge&logo=flutter&logoColor=white&labelColor=0B0F1F" alt="FlutterResponsiveUI"></a>
-<a href="https://github.com/Naseem-tahir123?tab=repositories"><img src="https://img.shields.io/badge/ALL_REPOSITORIES-VIEW-7C3AED?style=for-the-badge&logo=github&logoColor=white&labelColor=0B0F1F" alt="All repositories"></a>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Naseem-tahir123&show_icons=true&count_private=true&include_all_commits=true&hide_border=true&bg_color=0B1220&title_color=FB7185&text_color=CBD5E1&icon_color=FBBF24&border_radius=14" alt="GitHub stats">
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Naseem-tahir123&layout=compact&langs_count=8&hide_border=true&bg_color=0B1220&title_color=FB7185&text_color=CBD5E1&border_radius=14" alt="Most used languages">
+
+<sub>Much of my professional work is in private company repositories, so public stats show only part of it.</sub>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:F97316&height=3" width="100%" alt="">
+</details>
 
-## Career Path
+---
 
-```mermaid
-flowchart LR
-    A["Jun - Dec 2024<br/><b>AI Intern</b><br/>NAVTTC"] --> B["Jan - Sep 2025<br/><b>AI Engineer</b><br/>Assort Tech · 6 AI products"] --> C["Mar 2026 - Present<br/><b>AI Engineer</b><br/>Arcana Info · RAG + guardrails"]
-
-    style A fill:#0B0F1F,stroke:#A78BFA,color:#fff
-    style B fill:#4C1D95,stroke:#A78BFA,color:#fff
-    style C fill:#7C2D12,stroke:#F97316,color:#fff
-```
-
-<sub>🎓 BS Computer Science · Federal Urdu University of Arts, Science &amp; Technology · 2019 – 2024</sub>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:7C3AED,100:F97316&height=3" width="100%" alt="">
-
-## GitHub Analytics
+## Contact
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Naseem-tahir123&show_icons=true&count_private=true&include_all_commits=true&bg_color=0B0F1F&border_color=2A2F4A&border_radius=12&title_color=F97316&text_color=C9D1D9&icon_color=A78BFA" alt="GitHub stats">
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Naseem-tahir123&layout=compact&langs_count=8&bg_color=0B0F1F&border_color=2A2F4A&border_radius=12&title_color=F97316&text_color=C9D1D9" alt="Top languages">
-
-<br>
-
-<img src="https://streak-stats.demolab.com?user=Naseem-tahir123&theme=dark&background=0B0F1F&border=2A2F4A&stroke=2A2F4A&ring=F97316&fire=F97316&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=F59E0B&sideLabels=A78BFA&dates=94A3B8&border_radius=12" alt="Contribution streak">
-
-<br>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Naseem-tahir123&bg_color=0B0F1F&color=A78BFA&line=F97316&point=FFFFFF&area=true&area_color=4C1D95&hide_border=true&title_color=F97316&custom_title=Contribution%20Activity" width="100%" alt="Contribution activity graph">
-
-<!-- Optional animated contribution snake. Enable only after adding the workflow from the setup notes:
-<img src="https://raw.githubusercontent.com/Naseem-tahir123/Naseem-tahir123/output/github-snake-dark.svg" width="100%" alt="Contribution snake">
+<a href="https://www.linkedin.com/in/naseem-tahir-balti/"><img src="https://img.shields.io/badge/LinkedIn-Naseem_Tahir-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="mailto:naseemtahir507@gmail.com"><img src="https://img.shields.io/badge/Email-naseemtahir507@gmail.com-FB7185?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
+<!-- Add once you have the URL:
+<a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-Visit-FBBF24?style=flat&logo=googlechrome&logoColor=black" alt="Portfolio"></a>
 -->
 
-<sub>Much of my professional work lives in private company repositories, so public stats reflect only part of what I build.</sub>
+<sub>Islamabad, Pakistan</sub>
 
 </div>
-
-<br>
-
-<div align="center">
-
-### Building something with LLMs or RAG? Let's talk.
-
-<a href="https://www.linkedin.com/in/naseem-tahir-balti/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0B0F1F" alt="LinkedIn"></a>
-<a href="mailto:naseemtahir507@gmail.com"><img src="https://img.shields.io/badge/EMAIL-GET_IN_TOUCH-F97316?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0B0F1F" alt="Email"></a>
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F97316,50:4C1D95,100:0B0F1F&height=120&section=footer" width="100%" alt="">
