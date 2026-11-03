@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.svg" width="100%" alt="Naseem Tahir, AI Engineer at Arcana Info. LLM applications, agents and automation: RAG chatbots, voice agents and OCR assistants around an LLM core, powering content pipelines, a PR review bot and FastAPI services.">
+<img src="./banner.svg" width="100%" alt="Naseem Tahir, AI Engineer at Arcana Info. LLM applications, agents and automation: RAG chatbots, voice agents and OCR assistants around an LLM core, powering content pipelines, a PR review bot and FastAPI services.">
 
 <br>
 
@@ -17,7 +17,7 @@
 
 <br>
 
-**AI Engineer at Arcana Info** (Islamabad). I build LLM-powered products end to end: RAG chatbots with hybrid search, voice agents, OCR-based assistants, GitHub bots and content-generation pipelines, all served through FastAPI backends and built with the security and production layers they need to run for real teams.
+**AI Engineer - Agentic AI - LLM Based Application Developer ** (Islamabad). I build LLM-powered products end to end: RAG chatbots with hybrid search, voice agents, OCR-based assistants, GitHub bots and content-generation pipelines, all served through FastAPI backends and built with the security and production layers they need to run for real teams.
 
 Before Arcana, I shipped 6 AI products in 9 months at Assort Tech, after an AI/ML internship at NAVTTC.
 
@@ -154,7 +154,7 @@ flowchart LR
 ## Stack
 
 <div align="center">
-<img src="./assets/stack.svg" width="100%" alt="Technology stack: OpenAI API, Gemini, Groq, Cohere, Ollama, LangChain, LangGraph, OpenAI Agents SDK, Mathpix OCR, TTS and STT, RAG, Python, FastAPI, PostgreSQL, pgvector, Prisma, MongoDB, Redis, Supabase, Docker, Linux, Git, n8n, Playwright, TensorFlow, Keras, scikit-learn, PyTorch, YOLO, Flutter">
+<img src="./stack.svg" width="100%" alt="Technology stack: OpenAI API, Gemini, Groq, Cohere, Ollama, LangChain, LangGraph, OpenAI Agents SDK, Mathpix OCR, TTS and STT, RAG, Python, FastAPI, PostgreSQL, pgvector, Prisma, MongoDB, Redis, Supabase, Docker, Linux, Git, n8n, Playwright, TensorFlow, Keras, scikit-learn, PyTorch, YOLO, Flutter">
 </div>
 
 <details>
@@ -373,9 +373,9 @@ Computer vision, MLOps and cloud-based AI deployment.
 
 <a href="https://www.linkedin.com/in/naseem-tahir-balti/"><img src="https://img.shields.io/badge/LinkedIn-Naseem_Tahir-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="mailto:naseemtahir507@gmail.com"><img src="https://img.shields.io/badge/Email-naseemtahir507@gmail.com-FB7185?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
-<!-- Add once you have the URL:
-<a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-Visit-FBBF24?style=flat&logo=googlechrome&logoColor=black" alt="Portfolio"></a>
--->
+ 
+<a href="https://naseemtahir-ai.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-FBBF24?style=flat&logo=googlechrome&logoColor=black" alt="Portfolio"></a>
+
 
 <sub>Islamabad, Pakistan</sub>
 
