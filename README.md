@@ -1,17 +1,17 @@
 <div align="center">
 
-<img src="./banner.svg" width="100%" alt="Naseem Tahir, AI Engineer at Arcana Info. LLM applications, agents and automation: RAG chatbots, voice agents and OCR assistants around an LLM core, powering content pipelines, a PR review bot and FastAPI services.">
+<img src="./assets/banner.svg" width="100%" alt="Naseem Tahir, AI Engineer at Arcana Info. LLM applications, agents and automation: RAG chatbots, voice agents and OCR assistants around an LLM core, powering content pipelines, a PR review bot and FastAPI services.">
 
 <br>
 
-<a href="#what-i-build"><img src="./assets/nav/build.svg" height="32" alt="What I build"></a>
-<a href="#career-trajectory"><img src="./assets/nav/career.svg" height="32" alt="Career"></a>
-<a href="#architecture"><img src="./assets/nav/architecture.svg" height="32" alt="Architecture"></a>
-<a href="#stack"><img src="./assets/nav/stack.svg" height="32" alt="Stack"></a>
-<a href="#project-explorer"><img src="./assets/nav/projects.svg" height="32" alt="Projects"></a>
-<a href="#quick-answers"><img src="./assets/nav/answers.svg" height="32" alt="Quick answers"></a>
-<a href="#github-stats"><img src="./assets/nav/stats.svg" height="32" alt="Stats"></a>
-<a href="#contact"><img src="./assets/nav/contact.svg" height="32" alt="Contact"></a>
+<a href="#what-i-build"><img src="./assets/build.svg" height="32" alt="What I build"></a>
+<a href="#career-trajectory"><img src="./assets/career.svg" height="32" alt="Career"></a>
+<a href="#architecture"><img src="./assets/architecture.svg" height="32" alt="Architecture"></a>
+<a href="#stack"><img src="./assets/stack.svg" height="32" alt="Stack"></a>
+<a href="#project-explorer"><img src="./assets/projects.svg" height="32" alt="Projects"></a>
+<a href="#quick-answers"><img src="./assets/answers.svg" height="32" alt="Quick answers"></a>
+<a href="#github-stats"><img src="./assets/stats.svg" height="32" alt="Stats"></a>
+<a href="#contact"><img src="./assets/contact.svg" height="32" alt="Contact"></a>
 
 </div>
 
