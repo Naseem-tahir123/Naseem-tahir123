@@ -1,89 +1,178 @@
 <div align="center">
 
-<img src="./banner.svg" width="100%" alt="Naseem Tahir, AI Engineer. Animated hybrid retrieval pipeline: query, vector and BM25 search, Reciprocal Rank Fusion, answer.">
+<img src="./assets/banner.svg" width="100%" alt="Naseem Tahir, AI Engineer at Arcana Info. LLM applications, agents and automation: RAG chatbots, voice agents and OCR assistants around an LLM core, powering content pipelines, a PR review bot and FastAPI services.">
 
 <br>
 
-<a href="#ask-my-profile">Ask my profile</a> &nbsp;·&nbsp;
-<a href="#stack">Stack</a> &nbsp;·&nbsp;
-<a href="#project-explorer">Projects</a> &nbsp;·&nbsp;
-<a href="#experience">Experience</a> &nbsp;·&nbsp;
-<a href="#github-stats">Stats</a> &nbsp;·&nbsp;
-<a href="#contact">Contact</a>
+<a href="#what-i-build"><img src="https://img.shields.io/badge/What_I_build-1E293B?style=flat-square" alt="What I build"></a>
+<a href="#career-trajectory"><img src="https://img.shields.io/badge/Career-1E293B?style=flat-square" alt="Career"></a>
+<a href="#architecture"><img src="https://img.shields.io/badge/Architecture-1E293B?style=flat-square" alt="Architecture"></a>
+<a href="#stack"><img src="https://img.shields.io/badge/Stack-1E293B?style=flat-square" alt="Stack"></a>
+<a href="#project-explorer"><img src="https://img.shields.io/badge/Projects-1E293B?style=flat-square" alt="Projects"></a>
+<a href="#quick-answers"><img src="https://img.shields.io/badge/Quick_answers-1E293B?style=flat-square" alt="Quick answers"></a>
+<a href="#github-stats"><img src="https://img.shields.io/badge/Stats-1E293B?style=flat-square" alt="Stats"></a>
+<a href="#contact"><img src="https://img.shields.io/badge/Contact-1E293B?style=flat-square" alt="Contact"></a>
 
 </div>
 
 <br>
 
-I build production LLM applications: **hybrid-search RAG pipelines**, **guardrailed enterprise chatbots**, and **voice and OCR-based AI assistants**, served through FastAPI backends. Currently an AI Engineer at **Arcana Info** in Islamabad.
+**AI Engineer at Arcana Info** (Islamabad). I build LLM-powered products end to end: RAG chatbots with hybrid search, voice agents, OCR-based assistants, GitHub bots and content-generation pipelines, all served through FastAPI backends and built with the security and production layers they need to run for real teams.
+
+Before Arcana, I shipped 6 AI products in 9 months at Assort Tech, after an AI/ML internship at NAVTTC.
+
+| | |
+|:--|:--|
+| **Role** | AI Engineer · LLM applications, RAG, agents, automation |
+| **Delivered** | 6 AI products in 9 months · 2 production RAG systems at Arcana Info |
+| **Also** | Applied ML and computer vision tooling: TensorFlow, Keras, scikit-learn, YOLO |
+| **Exploring** | Computer vision, MLOps and cloud-based AI deployment |
 
 ---
 
-## Ask my profile
+## What I Build
 
-Click a question to expand the answer.
+<table>
+<tr>
+<td width="25%" valign="top"><b>RAG &amp; Retrieval</b><br><br>Hybrid search that merges pgvector similarity with full-text / BM25 using Reciprocal Rank Fusion. Cohere embeddings on PostgreSQL.</td>
+<td width="25%" valign="top"><b>Agents &amp; Voice</b><br><br>A voice scheduling assistant that unifies Google Calendar, email and SMS with real-time TTS/STT, built on the OpenAI Agents SDK.</td>
+<td width="25%" valign="top"><b>Document AI</b><br><br>An OCR-based educational assistant: Mathpix OCR plus GPT-4o-mini to produce summaries, quizzes and explanations.</td>
+<td width="25%" valign="top"><b>Workflow Automation</b><br><br>A news-to-podcast pipeline and an n8n book-generation workflow covering writing, cover design and editing.</td>
+</tr>
+<tr>
+<td width="25%" valign="top"><b>LLM Safety</b><br><br>3-layer guardrails for an HR chatbot: RBAC, PII redaction and prompt-injection defense.</td>
+<td width="25%" valign="top"><b>Backend &amp; APIs</b><br><br>FastAPI and Prisma services with JWT auth, rate limiting, request-ID middleware, structured error handling and 4 admin dashboard modules.</td>
+<td width="25%" valign="top"><b>Developer Tooling</b><br><br>A webhook-based GitHub PR review bot on Gemini that gives feedback on 100% of incoming pull requests.</td>
+<td width="25%" valign="top"><b>Applied ML</b><br><br>Model development and prototyping from a 6-month AI/ML internship. Toolkit: TensorFlow, Keras, scikit-learn, YOLO.</td>
+</tr>
+</table>
 
-<details>
-<summary><b><code>&gt; what do you build?</code></b></summary>
+---
+
+## Career Trajectory
+
+```mermaid
+flowchart LR
+    E["2019 – 2024<br/><b>BS Computer Science</b><br/>Federal Urdu University"] --> I["Jun – Dec 2024<br/><b>AI Intern</b><br/>NAVTTC<br/>model development<br/>and prototyping"]
+    I --> A["Jan – Sep 2025<br/><b>AI Engineer</b><br/>Assort Tech<br/>6 AI products: RAG,<br/>voice, OCR, automation"]
+    A --> R["Mar 2026 – Present<br/><b>AI Engineer</b><br/>Arcana Info<br/>hybrid RAG, guardrails,<br/>production APIs"]
+
+    style E fill:#0B1220,stroke:#475569,color:#fff
+    style I fill:#1E293B,stroke:#FBBF24,color:#fff
+    style A fill:#3B1D2A,stroke:#FB7185,color:#fff
+    style R fill:#7C2D12,stroke:#FBBF24,color:#fff
+```
+
+<details open>
+<summary><b>AI Engineer · Arcana Info</b> &nbsp;<sub>Mar 2026 – Present · Islamabad</sub></summary>
 
 <br>
 
-Production LLM applications. That includes RAG chatbots with hybrid search, voice agents, OCR-based assistants and content-generation pipelines, usually with a FastAPI backend.
+- Engineered a secure internal HR chatbot backend (Arca AI) on FastAPI and Prisma, built around a hybrid RAG pipeline: pgvector similarity plus full-text search, merged with Reciprocal Rank Fusion.
+- Designed a 3-layer guardrail system (RBAC, PII redaction, prompt-injection defense) integrated with Groq and Cohere.
+- Built 4 admin dashboard API modules: AI training progress, knowledge coverage, query resolution rate and announcement pulse.
+- Developed the TBB Travel Assistant, a production RAG system for travel agents using vector similarity and BM25 on PostgreSQL + pgvector with Cohere embeddings.
+- Diagnosed a cross-environment scraper failure (a subdomain mismatch across 2 staging environments) and restored Playwright-based content ingestion.
+- Hardened both systems with structured error handling, JWT authentication, request-ID middleware and rate limiting.
 
 </details>
 
 <details>
-<summary><b><code>&gt; what are you working on right now?</code></b></summary>
+<summary><b>AI Engineer · Assort Tech</b> &nbsp;<sub>Jan 2025 – Sep 2025 · Lahore</sub></summary>
 
 <br>
 
-Since March 2026 I have been an AI Engineer at **Arcana Info**, working on two systems: **Arca AI**, a secure internal HR chatbot backend, and the **TBB Travel Assistant**, a RAG system for travel agents.
+- Delivered 6 end-to-end AI products in 9 months: RAG chatbots, voice agents, OCR-based assistants and content-generation pipelines.
+- Built a company-specific RAG chatbot with web scraping and GPT-4o-mini, deployed as a real-time chat widget.
+- Engineered a news pipeline (SerpAPI, GPT-4, text-to-speech) that condenses a multi-step manual workflow into one triggered pipeline.
+- Built an educational assistant on Mathpix OCR and GPT-4o-mini, and a voice scheduling assistant on the OpenAI Agents SDK.
+- Deployed a GitHub PR review bot on Gemini, and an n8n + Supabase + Gemini book-generation workflow.
 
 </details>
 
 <details>
-<summary><b><code>&gt; how do you improve retrieval quality?</code></b></summary>
+<summary><b>AI Intern · NAVTTC</b> &nbsp;<sub>Jun 2024 – Dec 2024 · Islamabad</sub></summary>
 
 <br>
 
-By combining two retrieval methods instead of relying on one. I pair **vector similarity (pgvector)** with **full-text / BM25 search** and merge the ranked results with **Reciprocal Rank Fusion**.
+Six-month AI/ML internship contributing to model development and prototyping across multiple project cycles, under senior engineer mentorship.
 
 </details>
 
 <details>
-<summary><b><code>&gt; how do you secure an LLM app?</code></b></summary>
+<summary><b>Key achievements</b></summary>
 
 <br>
 
-With layers. For the HR chatbot I built a **3-layer guardrail system**: role-based access control (RBAC), PII redaction and prompt-injection defense. On the API side I add JWT authentication, request-ID middleware, rate limiting and structured error handling.
+| | |
+|:--|:--|
+| **Hybrid retrieval architecture** | Combined 2 retrieval methods (vector similarity + BM25 / full-text) with Reciprocal Rank Fusion for the HR chatbot |
+| **Production RAG pipeline** | Real-time FAQ and guide retrieval for travel agents on PostgreSQL + pgvector |
+| **Multi-channel assistant** | Unified 3 channels (Calendar, email, SMS) in one conversational interface with real-time TTS/STT |
+| **Faster code reviews** | AI-powered PR bot that cut review turnaround from hours to minutes |
 
 </details>
 
-<details>
-<summary><b><code>&gt; what have you shipped before?</code></b></summary>
+---
 
-<br>
+## Architecture
 
-At Assort Tech (Jan – Sep 2025) I delivered **6 end-to-end AI products in 9 months**: a RAG chatbot widget, a voice scheduling assistant, a GitHub PR review bot, a news-to-podcast pipeline, an OCR-based educational assistant and an AI book-generation workflow. Details are in the [project explorer](#project-explorer).
+A simplified overview of the kinds of systems I build. It combines patterns from several projects and is not a diagram of any single product.
 
-</details>
+```mermaid
+flowchart LR
+    subgraph IN["Inputs"]
+        A1["Chat widget"]
+        A2["Voice · STT"]
+        A3["Documents · images"]
+        A4["Webhooks · triggers"]
+    end
+    subgraph API["FastAPI backend"]
+        B1["JWT auth · rate limiting<br/>request-ID · error handling"]
+        B2["Guardrails<br/>RBAC · PII · injection defense"]
+    end
+    subgraph AI["AI layer"]
+        C1["LLMs<br/>OpenAI · Gemini · Groq"]
+        C2["Hybrid retrieval<br/>pgvector + BM25 + RRF"]
+        C3["Agents<br/>OpenAI Agents SDK · LangGraph"]
+    end
+    subgraph OUT["Outputs"]
+        D1["Answers · summaries · quizzes"]
+        D2["Audio · TTS"]
+        D3["PR feedback · dashboards"]
+    end
+    IN --> B1 --> B2 --> AI --> OUT
 
-<details>
-<summary><b><code>&gt; what are you exploring next?</code></b></summary>
-
-<br>
-
-Computer vision, MLOps and cloud-based AI deployment.
-
-</details>
+    style IN fill:#0B1220,stroke:#FBBF24,color:#fff
+    style API fill:#0B1220,stroke:#FB7185,color:#fff
+    style AI fill:#0B1220,stroke:#FBBF24,color:#fff
+    style OUT fill:#0B1220,stroke:#FB7185,color:#fff
+```
 
 ---
 
 ## Stack
 
 <div align="center">
-<img src="./stack.svg" width="100%" alt="Technology stack: OpenAI API, Gemini, Groq, Cohere, Ollama, LangChain, LangGraph, RAG, Python, FastAPI, PostgreSQL, pgvector, Prisma, MongoDB, Redis, Supabase, Docker, Linux, Git, n8n, Playwright, TensorFlow, Keras, scikit-learn, PyTorch, YOLO, Flutter">
+<img src="./assets/stack.svg" width="100%" alt="Technology stack: OpenAI API, Gemini, Groq, Cohere, Ollama, LangChain, LangGraph, OpenAI Agents SDK, Mathpix OCR, TTS and STT, RAG, Python, FastAPI, PostgreSQL, pgvector, Prisma, MongoDB, Redis, Supabase, Docker, Linux, Git, n8n, Playwright, TensorFlow, Keras, scikit-learn, PyTorch, YOLO, Flutter">
 </div>
+
+<details>
+<summary><b>Full breakdown by domain</b></summary>
+
+<br>
+
+| Domain | Technologies |
+|:--|:--|
+| **Languages & Frameworks** | Python · FastAPI · LangChain · LangGraph · HTML/CSS · Flutter |
+| **LLMs & Retrieval** | OpenAI API · Gemini · Groq · Cohere · Ollama · RAG · hybrid search (vector + BM25 / full-text) · Prompt Engineering |
+| **Agents & Voice** | OpenAI Agents SDK · real-time TTS / STT |
+| **Document AI** | Mathpix OCR |
+| **Machine Learning** | TensorFlow · Keras · scikit-learn · PyTorch · YOLO |
+| **Data & Infrastructure** | PostgreSQL · pgvector · MongoDB · SQL · Redis · Prisma · Supabase · Docker · Git · Linux |
+| **Automation & Tooling** | n8n · Playwright · SerpAPI |
+
+</details>
 
 ---
 
@@ -162,7 +251,7 @@ Unifies Google Calendar, email and SMS into one conversational interface with re
 
 <br>
 
-A webhook-based bot using Gemini that generates code feedback on every incoming pull request, shortening manual review turnaround from hours to minutes.
+A webhook-based bot using Gemini that generates code feedback on 100% of incoming pull requests, shortening manual review turnaround from hours to minutes.
 
 `Gemini` `Webhooks`
 
@@ -207,52 +296,65 @@ An end-to-end pipeline covering chapter writing, cover design and editing.
 
 ---
 
-## Experience
+## Quick Answers
 
-<details open>
-<summary><b>AI Engineer · Arcana Info</b> &nbsp;<sub>Mar 2026 – Present · Islamabad</sub></summary>
+<details>
+<summary><b>What do you build?</b></summary>
 
 <br>
 
-Hybrid RAG systems, layered LLM guardrails and production hardening for enterprise chatbots.
+LLM-powered products end to end: RAG chatbots with hybrid search, voice agents, OCR-based assistants, GitHub bots and content-generation pipelines, usually behind a FastAPI backend.
 
 </details>
 
 <details>
-<summary><b>AI Engineer · Assort Tech</b> &nbsp;<sub>Jan 2025 – Sep 2025 · Lahore</sub></summary>
+<summary><b>Is your work only RAG?</b></summary>
 
 <br>
 
-Delivered 6 end-to-end AI products over 9 months: RAG chatbots, voice agents, OCR-based assistants and content-generation pipelines.
+No. RAG is one area. I have also built a voice scheduling agent, an OCR-based educational assistant, a GitHub PR review bot, a news-to-podcast pipeline and an n8n book-generation workflow, and I did model development and prototyping during my AI/ML internship.
 
 </details>
 
 <details>
-<summary><b>AI Intern · NAVTTC</b> &nbsp;<sub>Jun 2024 – Dec 2024 · Islamabad</sub></summary>
+<summary><b>How do you improve retrieval quality?</b></summary>
 
 <br>
 
-Six-month AI/ML internship covering model development and prototyping under senior engineer mentorship.
+By combining two retrieval methods instead of relying on one: vector similarity (pgvector) plus full-text / BM25 search, merged with Reciprocal Rank Fusion.
 
 </details>
 
 <details>
-<summary><b>Education</b> &nbsp;<sub>2019 – 2024</sub></summary>
+<summary><b>How do you secure an LLM app?</b></summary>
 
 <br>
 
-BS Computer Science, Federal Urdu University of Arts, Science & Technology, Islamabad.
+With layers. For the HR chatbot I built a 3-layer guardrail system (RBAC, PII redaction, prompt-injection defense). On the API side I add JWT authentication, request-ID middleware, rate limiting and structured error handling.
+
+</details>
+
+<details>
+<summary><b>What are you working on right now?</b></summary>
+
+<br>
+
+Since March 2026 at Arcana Info: Arca AI, a secure internal HR chatbot backend, and the TBB Travel Assistant, a RAG system for travel agents.
+
+</details>
+
+<details>
+<summary><b>What are you exploring next?</b></summary>
+
+<br>
+
+Computer vision, MLOps and cloud-based AI deployment.
 
 </details>
 
 ---
 
 ## GitHub Stats
-
-<details open>
-<summary><b>Live stats</b></summary>
-
-<br>
 
 <div align="center">
 
@@ -262,8 +364,6 @@ BS Computer Science, Federal Urdu University of Arts, Science & Technology, Isla
 <sub>Much of my professional work is in private company repositories, so public stats show only part of it.</sub>
 
 </div>
-
-</details>
 
 ---
 
