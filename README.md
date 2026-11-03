@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.svg" width="100%" alt="Naseem Tahir, AI Engineer at Arcana Info. LLM applications, agents and automation: RAG chatbots, voice agents and OCR assistants around an LLM core, powering content pipelines, a PR review bot and FastAPI services.">
+<img src="./assets/banner.svg" width="100%" alt="Naseem Tahir, AI Engineer at Arcana Info. LLM applications, agents and automation: RAG chatbots, voice agents and OCR assistants around an LLM core, powering content pipelines, a PR review bot and FastAPI services.">
 
 <br>
 
