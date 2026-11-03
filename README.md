@@ -7,7 +7,7 @@
 <a href="#what-i-build"><img src="./assets/build.svg" height="32" alt="What I build"></a>
 <a href="#career-trajectory"><img src="./assets/career.svg" height="32" alt="Career"></a>
 <a href="#architecture"><img src="./assets/architecture.svg" height="32" alt="Architecture"></a>
-<a href="#stack"><img src="./assets/stack.svg" height="32" alt="Stack"></a>
+<a href="#stack"><img src="./assets/stack1.svg" height="32" alt="Stack"></a>
 <a href="#project-explorer"><img src="./assets/projects.svg" height="32" alt="Projects"></a>
 <a href="#quick-answers"><img src="./assets/answers.svg" height="32" alt="Quick answers"></a>
 <a href="#github-stats"><img src="./assets/stats.svg" height="32" alt="Stats"></a>
