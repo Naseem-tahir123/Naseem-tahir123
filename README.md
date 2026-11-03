@@ -82,7 +82,7 @@ Computer vision, MLOps and cloud-based AI deployment.
 ## Stack
 
 <div align="center">
-<img src="./assets/stack.svg" width="100%" alt="Technology stack: OpenAI API, Gemini, Groq, Cohere, Ollama, LangChain, LangGraph, RAG, Python, FastAPI, PostgreSQL, pgvector, Prisma, MongoDB, Redis, Supabase, Docker, Linux, Git, n8n, Playwright, TensorFlow, Keras, scikit-learn, PyTorch, YOLO, Flutter">
+<img src="./stack.svg" width="100%" alt="Technology stack: OpenAI API, Gemini, Groq, Cohere, Ollama, LangChain, LangGraph, RAG, Python, FastAPI, PostgreSQL, pgvector, Prisma, MongoDB, Redis, Supabase, Docker, Linux, Git, n8n, Playwright, TensorFlow, Keras, scikit-learn, PyTorch, YOLO, Flutter">
 </div>
 
 ---
