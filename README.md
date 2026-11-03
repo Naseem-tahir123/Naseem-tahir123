@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.svg" width="100%" alt="Naseem Tahir, AI Engineer. Animated hybrid retrieval pipeline: query, vector and BM25 search, Reciprocal Rank Fusion, answer.">
+<img src="./banner.svg" width="100%" alt="Naseem Tahir, AI Engineer. Animated hybrid retrieval pipeline: query, vector and BM25 search, Reciprocal Rank Fusion, answer.">
 
 <br>
 
