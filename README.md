@@ -1,34 +1,34 @@
 <div align="center">
 
-<img src="./banner.svg" width="100%" alt="Naseem Tahir, AI Engineer. LLM applications, agents and automation: RAG chatbots, voice agents and OCR assistants around an LLM core, powering content pipelines, a PR review bot and FastAPI services.">
+<img src="./banner.svg" width="100%" alt="Naseem Tahir, AI Engineer at Arcana Info. LLM applications, agents and automation: RAG chatbots, voice agents and OCR assistants around an LLM core, powering content pipelines, a PR review bot and FastAPI services.">
 
 <br>
 
-<a href="#what-i-build"><img src="https://img.shields.io/badge/What_I_build-1E293B?style=flat-square" alt="What I build"></a>
-<a href="#career-trajectory"><img src="https://img.shields.io/badge/Career-1E293B?style=flat-square" alt="Career"></a>
-<a href="#architecture"><img src="https://img.shields.io/badge/Architecture-1E293B?style=flat-square" alt="Architecture"></a>
-<a href="#stack"><img src="https://img.shields.io/badge/Stack-1E293B?style=flat-square" alt="Stack"></a>
-<a href="#project-explorer"><img src="https://img.shields.io/badge/Projects-1E293B?style=flat-square" alt="Projects"></a>
-<a href="#quick-answers"><img src="https://img.shields.io/badge/Quick_answers-1E293B?style=flat-square" alt="Quick answers"></a>
-<a href="#github-stats"><img src="https://img.shields.io/badge/Stats-1E293B?style=flat-square" alt="Stats"></a>
-<a href="#contact"><img src="https://img.shields.io/badge/Contact-1E293B?style=flat-square" alt="Contact"></a>
+<a href="#what-i-build"><img src="./assets/nav/build.svg" height="32" alt="What I build"></a>
+<a href="#career-trajectory"><img src="./assets/nav/career.svg" height="32" alt="Career"></a>
+<a href="#architecture"><img src="./assets/nav/architecture.svg" height="32" alt="Architecture"></a>
+<a href="#stack"><img src="./assets/nav/stack.svg" height="32" alt="Stack"></a>
+<a href="#project-explorer"><img src="./assets/nav/projects.svg" height="32" alt="Projects"></a>
+<a href="#quick-answers"><img src="./assets/nav/answers.svg" height="32" alt="Quick answers"></a>
+<a href="#github-stats"><img src="./assets/nav/stats.svg" height="32" alt="Stats"></a>
+<a href="#contact"><img src="./assets/nav/contact.svg" height="32" alt="Contact"></a>
 
 </div>
 
-<br>
+<img src="./assets/divider.svg" width="100%" height="6" alt="">
 
-**AI Engineer - Agentic AI - LLM Based Application Developer** (Islamabad). I build LLM-powered products end to end: RAG chatbots with hybrid search, voice agents, OCR-based assistants, GitHub bots and content-generation pipelines, all served through FastAPI backends and built with the security and production layers they need to run for real teams.
+**AI Engineer · Agentic AI · LLM Application Developer** at Arcana Info (Islamabad). I build LLM-powered products end to end: RAG chatbots with hybrid search, voice agents, OCR-based assistants, GitHub bots and content-generation pipelines, all served through FastAPI backends and built with the security and production layers they need to run for real teams.
 
 Before Arcana, I shipped 6 AI products in 9 months at Assort Tech, after an AI/ML internship at NAVTTC.
 
-| | |
-|:--|:--|
-| **Role** | AI Engineer · LLM applications, RAG, agents, automation |
-| **Delivered** | 6 AI products in 9 months · 2 production RAG systems at Arcana Info |
-| **Also** | Applied ML and computer vision tooling: TensorFlow, Keras, scikit-learn, YOLO |
-| **Exploring** | Computer vision, MLOps and cloud-based AI deployment |
+<table width="100%">
+<tr><td width="18%"><b>Role</b></td><td>AI Engineer · LLM applications, RAG, agents, automation</td></tr>
+<tr><td><b>Delivered</b></td><td>6 AI products in 9 months · 2 production RAG systems at Arcana Info</td></tr>
+<tr><td><b>Also</b></td><td>Applied ML and computer vision tooling: TensorFlow, Keras, scikit-learn, YOLO</td></tr>
+<tr><td><b>Exploring</b></td><td>Computer vision, MLOps and cloud-based AI deployment</td></tr>
+</table>
 
----
+<img src="./assets/divider.svg" width="100%" height="6" alt="">
 
 ## What I Build
 
@@ -47,7 +47,7 @@ Before Arcana, I shipped 6 AI products in 9 months at Assort Tech, after an AI/M
 </tr>
 </table>
 
----
+<img src="./assets/divider.svg" width="100%" height="6" alt="">
 
 ## Career Trajectory
 
@@ -104,7 +104,7 @@ Six-month AI/ML internship contributing to model development and prototyping acr
 
 <br>
 
-| | |
+| Achievement | What it covers |
 |:--|:--|
 | **Hybrid retrieval architecture** | Combined 2 retrieval methods (vector similarity + BM25 / full-text) with Reciprocal Rank Fusion for the HR chatbot |
 | **Production RAG pipeline** | Real-time FAQ and guide retrieval for travel agents on PostgreSQL + pgvector |
@@ -113,7 +113,7 @@ Six-month AI/ML internship contributing to model development and prototyping acr
 
 </details>
 
----
+<img src="./assets/divider.svg" width="100%" height="6" alt="">
 
 ## Architecture
 
@@ -149,12 +149,12 @@ flowchart LR
     style OUT fill:#0B1220,stroke:#FB7185,color:#fff
 ```
 
----
+<img src="./assets/divider.svg" width="100%" height="6" alt="">
 
 ## Stack
 
 <div align="center">
-<img src="./stack.svg" width="100%" alt="Technology stack: OpenAI API, Gemini, Groq, Cohere, Ollama, LangChain, LangGraph, OpenAI Agents SDK, Mathpix OCR, TTS and STT, RAG, Python, FastAPI, PostgreSQL, pgvector, Prisma, MongoDB, Redis, Supabase, Docker, Linux, Git, n8n, Playwright, TensorFlow, Keras, scikit-learn, PyTorch, YOLO, Flutter">
+<img src="./assets/stack.svg" width="100%" alt="Technology stack: OpenAI API, Gemini, Groq, Cohere, Ollama, LangChain, LangGraph, OpenAI Agents SDK, Mathpix OCR, TTS and STT, RAG, Python, FastAPI, PostgreSQL, pgvector, Prisma, MongoDB, Redis, Supabase, Docker, Linux, Git, n8n, Playwright, TensorFlow, Keras, scikit-learn, PyTorch, YOLO, Flutter">
 </div>
 
 <details>
@@ -174,7 +174,7 @@ flowchart LR
 
 </details>
 
----
+<img src="./assets/divider.svg" width="100%" height="6" alt="">
 
 ## Project Explorer
 
@@ -187,7 +187,7 @@ Click a project to expand it. Most of this work was built for employers, so the 
 
 <br>
 
-| | |
+| Aspect | Details |
 |:--|:--|
 | **What it is** | Backend for an internal HR assistant |
 | **Retrieval** | pgvector similarity + full-text search, merged with Reciprocal Rank Fusion |
@@ -203,7 +203,7 @@ Click a project to expand it. Most of this work was built for employers, so the 
 
 <br>
 
-| | |
+| Aspect | Details |
 |:--|:--|
 | **What it is** | Production RAG system giving travel agents real-time answers from FAQs and guides |
 | **Retrieval** | Vector similarity + BM25 search on PostgreSQL |
@@ -294,7 +294,7 @@ An end-to-end pipeline covering chapter writing, cover design and editing.
 
 [**FlutterResponsiveUI**](https://github.com/Naseem-tahir123/FlutterResponsiveUI) · Flutter, Dart &nbsp;·&nbsp; [All repositories](https://github.com/Naseem-tahir123?tab=repositories)
 
----
+<img src="./assets/divider.svg" width="100%" height="6" alt="">
 
 ## Quick Answers
 
@@ -352,7 +352,7 @@ Computer vision, MLOps and cloud-based AI deployment.
 
 </details>
 
----
+<img src="./assets/divider.svg" width="100%" height="6" alt="">
 
 ## GitHub Stats
 
@@ -365,15 +365,14 @@ Computer vision, MLOps and cloud-based AI deployment.
 
 </div>
 
----
+<img src="./assets/divider.svg" width="100%" height="6" alt="">
 
 ## Contact
 
 <div align="center">
 
 <a href="https://www.linkedin.com/in/naseem-tahir-balti/"><img src="https://img.shields.io/badge/LinkedIn-Naseem_Tahir-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="mailto:naseemtahir507@gmail.com"><img src="https://img.shields.io/badge/Email-naseemtahir507@gmail.com-FB7185?style=flat&logo=gmail&logoColor=white" alt="Email"></a>
- 
+<a href="mailto:naseemtahir507@gmail.com"><img src="https://img.shields.io/badge/Email-naseemtahir507@gmail.com-FB7185?style=flat&logo=gmail&logoColor=white" alt="Email"></a> 
 <a href="https://naseemtahir-ai.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-FBBF24?style=flat&logo=googlechrome&logoColor=black" alt="Portfolio"></a>
 
 
