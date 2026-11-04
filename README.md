@@ -367,6 +367,21 @@ Computer vision, MLOps and cloud-based AI deployment.
 
 <img src="./assets/divider.svg" width="100%" height="6" alt="">
 
+<img src="./assets/divider.svg" width="100%" height="6" alt="">
+
+## Certifications
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/MACHINE_LEARNING-SPECIALIZATION-050A18?style=for-the-badge&labelColor=0B5C75" alt="Machine Learning Specialization">
+<img src="https://img.shields.io/badge/DATA_ANALYSIS_%26-VISUALIZATION-050A18?style=for-the-badge&labelColor=0B5C75" alt="Data Analysis and Visualization">
+<img src="https://img.shields.io/badge/DEEP_LEARNING-NLP-050A18?style=for-the-badge&labelColor=0B5C75" alt="Deep Learning NLP">
+<img src="https://img.shields.io/badge/LONG--TERM_MEMORY-FOR_AI_AGENTS-050A18?style=for-the-badge&labelColor=3B1F6B" alt="Long-term Memory for AI Agents">
+
+</div>
+
+<img src="./assets/divider.svg" width="100%" height="6" alt="">
+
 ## Contact
 
 <div align="center">
