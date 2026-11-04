@@ -377,7 +377,8 @@ Computer vision, MLOps and cloud-based AI deployment.
 <img src="https://img.shields.io/badge/DATA_ANALYSIS_%26-VISUALIZATION-050A18?style=for-the-badge&labelColor=0B5C75" alt="Data Analysis and Visualization">
 <img src="https://img.shields.io/badge/DEEP_LEARNING-NLP-050A18?style=for-the-badge&labelColor=0B5C75" alt="Deep Learning NLP">
 <img src="https://img.shields.io/badge/LONG--TERM_MEMORY-FOR_AI_AGENTS-050A18?style=for-the-badge&labelColor=3B1F6B" alt="Long-term Memory for AI Agents">
-
+<img src="https://img.shields.io/badge/NAVTTC-DATA_SCIENCE_%26_ML-050A18?style=for-the-badge&labelColor=0B5C75" alt="NAVTTC Data Science and ML">
+<img src="https://img.shields.io/badge/KAGGLE-INTRO_TO_ML-050A18?style=for-the-badge&labelColor=0B5C75" alt="Kaggle Intro to ML">
 </div>
 
 <img src="./assets/divider.svg" width="100%" height="6" alt="">
