@@ -4,14 +4,14 @@
 
 <br>
 
-<a href="https://github.com/Naseem-tahir123/Naseem-tahir123#what-i-build"><img src="./assets/build.svg" height="32" alt="What I build"></a>
-<a href="https://github.com/Naseem-tahir123/Naseem-tahir123#career-trajectory"><img src="./assets/career.svg" height="32" alt="Career"></a>
-<a href="https://github.com/Naseem-tahir123/Naseem-tahir123#architecture"><img src="./assets/architecture.svg" height="32" alt="Architecture"></a>
-<a href="https://github.com/Naseem-tahir123/Naseem-tahir123#stack"><img src="./assets/stack1.svg" height="32" alt="Stack"></a>
-<a href="https://github.com/Naseem-tahir123/Naseem-tahir123#project-explorer"><img src="./assets/projects.svg" height="32" alt="Projects"></a>
-<a href="https://github.com/Naseem-tahir123/Naseem-tahir123#quick-answers"><img src="./assets/answers.svg" height="32" alt="Quick answers"></a>
-<a href="https://github.com/Naseem-tahir123/Naseem-tahir123#github-stats"><img src="./assets/stats.svg" height="32" alt="Stats"></a>
-<a href="https://github.com/Naseem-tahir123/Naseem-tahir123#contact"><img src="./assets/contact.svg" height="32" alt="Contact"></a>
+<a href="#what-i-build"><img src="./assets/build.svg" height="32" alt="What I build"></a>
+<a href="#career-trajectory"><img src="./assets/career.svg" height="32" alt="Career"></a>
+<a href="#architecture"><img src="./assets/architecture.svg" height="32" alt="Architecture"></a>
+<a href="#stack"><img src="./assets/stack1.svg" height="32" alt="Stack"></a>
+<a href="#project-explorer"><img src="./assets/projects.svg" height="32" alt="Projects"></a>
+<a href="#quick-answers"><img src="./assets/answers.svg" height="32" alt="Quick answers"></a>
+<a href="#github-stats"><img src="./assets/stats.svg" height="32" alt="Stats"></a>
+<a href="#contact"><img src="./assets/contact.svg" height="32" alt="Contact"></a>
 
 </div>
 
